@@ -20,7 +20,7 @@
     <div class="pricing__duration">
       Annually
       <label class="switch">
-          <input type="checkbox" aria-label="Toggle between monthly or annual payment">
+          <input type="checkbox" id="toggle" aria-label="Toggle between monthly or annual payment">
           <span class="slider"></span>
       </label>
       Monthly
@@ -28,7 +28,7 @@
     <div class="pricing__table">
       <div class="pricing__card">
         <h3>Basic</h3>
-        <p class="price">&dollar;199.99</p>
+        <p class="price"><span class="dollar">&dollar;</span><span class="amount" id="price-basic">199.99</span></p>
         <div class="pricing__features">
           <p>500 GB Storage</p>
           <p>2 Users Allowed</p>
@@ -39,7 +39,7 @@
 
       <div class="pricing__card pricing__card--pro">
         <h3>Professional</h3>
-        <p class="price">&dollar;249.99</p>
+        <p class="price"><span class="dollar">&dollar;</span><span class="amount" id="price-pro">249.99</span></p>
         <div class="pricing__features">
           <p>1 TB Storage</p>
           <p>5 Users Allowed</p>
@@ -49,8 +49,8 @@
       </div>
 
       <div class="pricing__card">
-        <h3>Basic</h3>
-        <p class="price">&dollar;399.99</p>
+        <h3>Master</h3>
+        <p class="price"><span class="dollar">&dollar;</span><span class="amount" id="price-master">399.99</span></p>
         <div class="pricing__features">
           <p>2 TB Storage</p>
           <p>10 Users Allowed</p>
@@ -65,5 +65,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  <script src="script.js"></script>
 </body>
 </html>

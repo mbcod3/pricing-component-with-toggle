@@ -84,6 +84,8 @@ body {
   background: linear-gradient(to right, hsla(236, 72%, 79%, 0.6), hsla(237, 63%, 64%, 0.6));
 }
 
+
+
 .switch input { 
   opacity: 0;
   width: 0;
@@ -145,10 +147,19 @@ input:checked + .slider:before {
 }
 
 .price {
-  font-size: 3.5rem;
   margin-top: 0;
   margin-bottom: 1.2rem;
   color: hsl(232, 13%, 33%);
+}
+
+.dollar {
+  font-size: 2rem;
+  vertical-align: super;
+  margin-right: 7px;
+}
+
+.amount {
+  font-size: 3.5rem;
 }
 
 .pricing__features p {
